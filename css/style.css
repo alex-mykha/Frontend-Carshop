@@ -1,5 +1,4 @@
 .header_menu{
-
   background-color: goldenrod;
   border-radius: 20px;
   padding: 10px 10px;
@@ -8,9 +7,7 @@
 .container{
   max-width: 1200px;
   margin: 0 auto;
-
 }
-
 
 .header_menu_wraper{
 gap: 25px;
@@ -19,7 +16,6 @@ gap: 25px;
   justify-content: center;
 }
 .menu{
-
 display: flex;
 }
 .menu_list{
@@ -41,14 +37,12 @@ display: flex;
   flex-direction: column;
   align-items: center;
   gap: 15px;
-
 }
 legend{
   text-align: center;
   margin-bottom: 50px;
   color: chocolate;
   font-size: 38px;
-
 }
 .btn{
 display: block;
@@ -84,7 +78,6 @@ font-size: 15px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-image: ;
   background-image: url("../img/Hintergrund\ Bild\ Grau.jfif");
   background-repeat: no-repeat;
   background-size: cover;
