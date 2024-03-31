@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Car Shop</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header_menu">
+      <div class="header_menu_wraper">
+        <h1> <img class="logo" src="img/photo_2024-03-24_16-54-26.jpg" alt="logo"></h1>
+
+
+      <nav class="menu">
+        <ul class="menu_list">
+          <li><a href="main.html">Реєстрація</a></li>
+          <li><a href="index2.html">Авторизація</a></li>
+          <li><a href="index3.html">Пошук</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <section class="search">
+  <div class="search-container">
+    <!-- <h1>Пошук</h1> -->
+    <form action="https://fom.in.ua/echo" method="post">
+        <div class="form-group">
+            <label for="body-type">Тип кузова:</label>
+            <select class="body-type">
+                <option value="">Оберіть тип кузова</option>
+                <option value="sedan">Седан</option>
+                <option value="hatchback">Хетчбек</option>
+
+            </select>
+            <select class="body-type">
+              <option value="">Оберіть Маркy авто</option>
+              <option value="BMW">BMW</option>
+              <option value="Mercedes">Mercedes</option>
+              <option value="Audi">Audi</option>
+              <option value="Porsche">Porsche</option>
+              <option value="VW">VW</option>
+          </select>
+
+          <select class="body-type">
+            <option value="">Країна виробник</option>
+            <option value="Germany">Germany</option>
+            <option value="France">France</option>
+            <option value="Spain">Spain</option>
+            <option value="Ukraine">Ukraine</option>
+            <option value="China">China</option>
+        </select>
+        <div class="price">
+        <label for="priceFrom">Ціна від:
+        <input type="number" id="priceFrom" name="priceFrom">
+      </label>
+        <label for="priceTo">Ціна до:
+        <input type="number" id="priceTo" name="priceTo">
+      </label>
+      </div>
+      <div class="price">
+        <label for="priceFrom">Рік випуску від:
+        <input type="number" id="priceFrom" name="priceFrom">
+      </label>
+        <label for="priceTo">Рік випуску до:
+        <input type="number" id="priceTo" name="priceTo">
+      </label>
+      </div>
+      <label for="status">Стан:</label>
+      <select id="status" name="status" multiple>
+          <option value="Бита">Бита</option>
+          <option value="У кредиті">У кредиті</option>
+          <option value="Нерозмитнена">Нерозмитнена</option>
+      </select>
+
+        </div>
+        <button> Пошук
+        </button>
+        <!-- <input type="submit" value="Пошук"> -->
+    </form>
+  </section>
+</div>
+
+
+</body>
+
+</html>
