@@ -2,13 +2,11 @@
   background-color: goldenrod;
   border-radius: 20px;
   padding: 10px 10px;
-
 }
 .container{
   max-width: 1200px;
   margin: 0 auto;
 }
-
 .header_menu_wraper{
 gap: 25px;
   align-items: center;
