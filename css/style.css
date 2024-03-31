@@ -88,10 +88,6 @@ form {
   flex-direction: column;
 }
 
-.search{
-
-}
-
 .form-group {
   margin-bottom: 20px;
 }
@@ -126,7 +122,7 @@ button:hover {
 .price{
   display: flex;
   justify-content: space-around;
-  /* padding: 10px; */
+
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -134,7 +130,7 @@ button:hover {
   display: flex;
   flex-direction: column;
 }
-/*  */
+
 button {
   border: none;
   color: #fff;
