@@ -31,6 +31,7 @@
   font-size: 18px;
   transition: .3s;
   padding-bottom: 3px;
+  cursor: pointer;
 }
 
 .menu_list>li>a:hover {
@@ -80,6 +81,7 @@ legend {
   height: 50px;
   border-radius: 50%;
   display: block;
+  cursor: pointer;
 }
 
 .search-container {
