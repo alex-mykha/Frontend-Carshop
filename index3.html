@@ -13,7 +13,9 @@
   <div class="container">
     <header class="header_menu">
       <div class="header_menu_wraper">
-        <a href="cards-auto.html"><h1> <img class="logo" src="img/photo_2024-03-24_16-54-26.jpg" alt="logo"></h1></a>
+        <a href="cards-auto.html">
+          <h1> <img class="logo" src="img/photo_2024-03-24_16-54-26.jpg" alt="logo"></h1>
+        </a>
         <nav class="menu">
           <ul class="menu_list">
             <li><a href="main.html">Реєстрація</a></li>
@@ -72,6 +74,22 @@
             <option value="У кредиті">У кредиті</option>
             <option value="Нерозмитнена">Нерозмитнена</option>
           </select>
+          <div class="radio-box">
+            <label>Коробка передач:</label>
+            <input type="radio" id="autoTransmission" name="transmission" value="auto">
+            <label for="autoTransmission">Автоматична</label>
+            <input type="radio" id="manualTransmission" name="transmission" value="manual">
+            <label for="manualTransmission">Механічна</label>
+          </div>
+          <div class="will-box">
+            <label>Тип приводу:</label>
+            <input type="checkbox" id="frontWheelDrive" name="driveType" value="front">
+            <label for="frontWheelDrive">Передній</label>
+            <input type="checkbox" id="rearWheelDrive" name="driveType" value="rear">
+            <label for="rearWheelDrive">Задній</label>
+            <input type="checkbox" id="allWheelDrive" name="driveType" value="all">
+            <label for="allWheelDrive">Повний (4WD)</label>
+          </div>
         </div>
         <button> Пошук
         </button>
