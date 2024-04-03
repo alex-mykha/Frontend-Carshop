@@ -13,27 +13,30 @@
   <div class="container">
     <header class="header_menu">
       <div class="header_menu_wraper">
-        <a href="cards-auto.html"><h1> <img class="logo" src="img/photo_2024-03-24_16-54-26.jpg" alt="logo"></h1></a>
+        <a href="cards-auto.html">
+          <h1> <img class="logo" src="img/photo_2024-03-24_16-54-26.jpg" alt="logo"></h1>
+        </a>
         <nav class="menu">
           <ul class="menu_list">
-            <li><a href="main.html">Реєстрація</a></li>
-            <li><a href="index2.html">Авторизація</a></li>
-            <li><a href="index3.html">Пошук</a></li>
+            <li><a href="registration.html">Реєстрація</a></li>
+            <li><a href="autorisation.html">Авторизація</a></li>
+            <li><a href="index.html">Пошук</a></li>
             <li><a href="cards-auto.html">Вітрина</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <section class="registration">
+      <h2 class="registration_title">Авторизація особистого кабінету </h2>
       <form action="https://fom.in.ua/echo" method="post">
         <fieldset class="wraper_registration">
-          <legend> Реєстрація </legend>
+          <legend> Авторизація </legend>
           <label>
             Имя пользователя
-            <input type="text" name="username" autocomplete="off" /></label>
+            <input type="text" name="username" autocomplete="off" placeholder="Ім'я" /></label>
           <label>
             Пароль
-            <input type="password" name="pwd" autocomplete="off" /></label>
+            <input type="password" name="pwd" autocomplete="off" placeholder="Пароль" /></label>
         </fieldset>
         <input class="btn" type="submit" value="Отправить" />
       </form>
